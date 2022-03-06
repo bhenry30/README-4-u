@@ -56,7 +56,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributing',
+        name: 'contribution',
         message: 'Provide contribution guidelines for the project',
         validate: projectContInput => {
             if (projectContInput) {
@@ -69,10 +69,10 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'tests',
+        name: 'test',
         message: 'Provide test instructions for the project',
-        validate: projectTestsInput => {
-            if (projectTestsInput) {
+        validate: projectTestInput => {
+            if (projectTestInput) {
               return true;
             } else {
               console.log('Please enter the project test instructions!');
@@ -82,19 +82,19 @@ const questions = [
     },
     {
         type: 'checkbox',
-        name: 'languages',
-        message: 'What did you build this project with? (Check all that apply)',
-        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+        name: 'license',
+        message: 'Which license would you like to use for your app?',
+        choices: ['Apache License 2.0', 'GNU General Public License', 'Mozilla Public License 2.0']
     },
     {
         type: 'input',
-        name: 'link',
-        message: 'Enter the GitHub link to your project.',
-        validate: projectLinkInput => {
-            if (projectLinkInput) {
+        name: 'username',
+        message: 'Please enter your GitHub username.',
+        validate: projectUsernameInput => {
+            if (projectUsernameInput) {
               return true;
             } else {
-              console.log('Please enter the project link!');
+              console.log('Please enter your GitHub Username!');
               return false;
             }
         }
@@ -102,7 +102,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'Enter your email address so users can reach if they have questions. (Required)',
+        message: 'Enter your email address so users can reach if they have questions.',
         validate: projectEmailInput => {
             if (projectEmailInput) {
               return true;
