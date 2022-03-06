@@ -53,8 +53,8 @@ const generateMarkdown = templateData => {
 
   <a name="questions"></a>
   ## Questions <a name="questions"></a>
-  GitHub profile: https://github.com/${username} </br>
-  Contact me here if you have any questions: ${email}
+  - GitHub profile: https://github.com/${username}
+  - Contact me here if you have any questions: ${email}
 `;
 }
 
