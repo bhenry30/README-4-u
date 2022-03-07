@@ -1,0 +1,22 @@
+{
+  "name": "readme-4-u",
+  "version": "1.0.0",
+  "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhenry30/README-4-u.git"
+  },
+  "author": "Brandon Henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhenry30/README-4-u/issues"
+  },
+  "homepage": "https://github.com/bhenry30/README-4-u#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
