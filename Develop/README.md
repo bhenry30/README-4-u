@@ -8,7 +8,7 @@ README-4-U is a README generator that uses inquirer prompts through Node JS to a
 * Provide detailed answers to the questions that follow.
 * Your README.md file will appear once you have answered all the questions.
 
-![screenshot1](./Develop/README-4-U-screenshot.png)
+![screenshot1](./README-4-U-screenshot.png)
 
 ## Technologies
 * Javascript
